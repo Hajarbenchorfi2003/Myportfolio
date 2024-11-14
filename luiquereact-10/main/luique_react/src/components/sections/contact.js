@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { client } from "../../utils/prismicClient";
-
+import emailjs from "emailjs-com";
  const Contact= () => {
   const [formData, setFormData] = useState({ name: "", email: "", subject: "", message: "" });
   const [status, setStatus] = useState("");

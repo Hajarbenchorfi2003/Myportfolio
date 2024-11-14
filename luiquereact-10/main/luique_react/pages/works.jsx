@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import Layout from "../src/layouts/Layout";
+
 const PortfolioIsotope = dynamic(
   () => import("../src/components/PortfolioIsotope"),
   {
